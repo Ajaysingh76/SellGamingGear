@@ -1,5 +1,5 @@
 {
-  "name": "SellProductForm",
+  "name": "sellproductform",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,9 +11,23 @@
   },
   "dependencies": {
     "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/native": "^7.1.10",
+    "@react-navigation/stack": "^7.3.3",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1",
     "react": "19.0.0",
     "react-native": "0.79.2",
-    "react-native-image-picker": "^8.2.1"
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-toast-message": "^2.3.0",
+    "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -37,5 +51,18 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "description": "This project is a React Native form screen for listing gaming gear. It includes inputs for title, condition (dropdown), price, category chips, description, and action buttons.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak8858/Console-Kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepak8858/Console-Kit/issues"
+  },
+  "homepage": "https://github.com/Deepak8858/Console-Kit#readme"
 }
